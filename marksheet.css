@@ -1,0 +1,101 @@
+.img, .td, .h1{
+ font-family:"Times New Roman";
+ text-transform:uppercase;
+ margin: 5px;
+ padding: 10px;
+ text-shadow: 3px 2px white;
+ font-color:black;
+}
+.img, .td, .h3{
+  letter-spacing: 5px;
+  padding: 5px;
+}
+.img:hover{
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.demo, th{
+  font-size: 20px;
+  margin: 2px;
+  padding: 2px;
+  font-style: italic;
+  color: blue;
+}
+.demo :hover{
+  color: hotpink;
+}
+table.demo1 th{
+  background-color:white;
+  font-size: 20px;
+  margin: 1px;
+  padding: 0px;
+  color: black;
+}
+table.demo1{
+  margin: 10px;
+  padding: 5px;
+}
+table.demo1 .abc1{
+  background-color:teal;
+  font-size: 20px;
+  margin: 10px;
+  padding: 30px;
+  color: black;
+  text-align: center;
+}
+table.demo1 .abc2{
+  background-color:teal;
+  font-size: 20px;
+  margin: 10px;
+  padding: 30px;
+  color: black;
+  text-align: center;
+}
+table.demo1 tr{
+  text-align: center;
+  font-size: 20px;
+}
+table.demo1 .abc3:hover
+{
+  color:darkblue;
+  background-color: lightblue;
+}
+table.demo1 .abc th:hover
+{
+  background-color: hotpink;
+}
+table.demo3 th{
+  border-style: outset;
+  border-width: 2px;
+  border-collapse: collapse;
+  color: black;
+  width: 300px;
+  height: 0px;
+}
+table.demo3 .a th{
+  color: green;
+}
+table.demo3 tr h2{
+  font-size: 50px;
+  color: red;
+}
+table.demo3 .b th:hover{
+  background-color: white;
+  color:teal;
+  text-decoration: underline;
+
+}
+table.demo3 .c th:hover{
+  color: yellow;
+}
+table.demo3 .d th:hover{
+  font-style: italic;
+  font-family: "times new Roman";
+  text-decoration:overline;
+  background-color: lightblue;
+}
+table.demo3 .ab{
+  text-decoration: underline;
+  color:hotpink;
+}
